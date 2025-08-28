@@ -9,13 +9,13 @@ Objetivos
 - O que é Pensamento Algorítmico
 - A Importância de ter um pensamento organizado
 #
-Apesar de "Pensando Computacional" induzir a ideia de 'Pensar como computador'. Na realidade, Pensamento computacional é a habilidade de abstração problemas maiores em menores de forma gerenciavel com uso ou não de computador. Logo, PC é a habilidade de realizar análise e desenvolver soluções. "(...)Pensar e agir com base em um determinado raciocínio lógico"
+Apesar de "Pensando Computacional" induzir a ideia de 'Pensar como computador'. Na realidade, Pensamento computacional é a habilidade de abstração de problemas maiores em partes menores, de forma gerenciavel com uso ou não de computador. Logo, PC é a habilidade de realizar análise e desenvolver soluções. "(...)Pensar e agir com base em um determinado raciocínio lógico"
 
 "O pensamento computacional é um conjunto de técnicas da Ciência da computação que podem ser aplicadas à solução de problemas nas diversas áreas do conhecimento."
 
 - Analisar problemas;
 - Dividir em partes; e 
-- Propor solução.
+- Propor solução(ões).
 
 Já o pensando algorítmico é uma subseção do pensamento computacional, que tratar de seguir passos lógicos e sequênciais para resolução de problemas.
 
@@ -26,7 +26,7 @@ Já o pensando algorítmico é uma subseção do pensamento computacional, que t
  - Descrever os quatro Pilares do pensamento computacional: Decomposição, Reconhecimento de padrões, abstração e automação (Algorítimico, ou pensanto Algorítmico)
  - Como os quatro pilares auxiliam na resolução de problemas computacionais
 #
- Não necessariamento existe uma sequência restrita e bem definida de passos para resolver um determinado problema.
+ Não necessariamente existe uma sequência restrita e bem definida de passos para resolver um determinado problema.
 
 - Decomposição: Quebra do problema em problemas menores, e mais gerenciáveis.
 - Reconhecimento de padrões: Analisar e identificar similaridades entre partes diferentes.
@@ -47,7 +47,7 @@ Leia a seção “Decomposição”, do capítulo 6 do livro: FORBELLONE, André
 
 ### Reconhecimento de padrões
 #
-Buscamos o reconhecimento de padrão em diversas ocasiões durate o dia a dia. Por exemplo, Ao olhar para o céu poderemos deduzir uma possível chuva decorrer do estados da nuvens, ou a buscar receitas de bolos entre as diversas variações podemos identificar processos comuns entre as diversão receitas como pre aquecer forno etc.
+Buscamos o reconhecimento de padrão em diversas ocasiões durate o dia a dia. Por exemplo, Ao olhar para o céu poderemos deduzir uma possível chuva decorrer do estados das nuvens, ou buscar por receitas de bolos entre as diversas variações podemos identificar processos comuns entre as diversas receitas como pre aquecer forno etc.
 
 O Reconhecimento de padrões em problemas e subproblemas permite compartilhar soluções como, utilizar soluções já elaboradas ou parte da ideia. É de extrema importância a capacidade de verificar e perceber padrões.
 
@@ -59,7 +59,7 @@ Sequência/Sucessão de Fibonacci - https://pt.wikipedia.org/wiki/Sequência_de_
 #
 Trata-se de ignorar detalhes irrelevantes do problema em questão, e ressaltar apenas as informações relevantes.
 
-Exemplo, mapa de metro mostr apenas informações relevantes as estações ignorando informações detalhadas da cidade.
+Exemplo, mapa de metro apresenta apenas informações relevantes as estações; Ignorando informações detalhadas da cidade.
 
 - Leitura extra
 
@@ -69,7 +69,7 @@ Veja mais exemplos na seção “Abstração: aprendendo a pensar e a programar 
 #
 Após  Decomposição, reconhecimento de padrões e abstração, a automação é o pensamento algorítmico. Ao seja, realizar uma sequência de passos bem definidos.
 
-Quando se trata de computadores, códigos (algoritmos) não toleram ambiguídades. Instruções para seguir passos de uma receitas, não devem incluir passos como adicione sal a gosto ou misture ovos e farinas em uma tijela, podem ressaltar os ovos sejam adicionados com casca por exemplo.
+Quando se trata de computadores, códigos (algoritmos) não toleram ambiguídades. Instruções para seguir passos de uma receitas, não devem incluir passos como adicione sal a gosto ou misture ovos e farinas em uma tijela, podem resultar que os ovos sejam adicionados com casca, por exemplo.
 
 - Leitura extra
 
@@ -80,3 +80,6 @@ https://pt.khanacademy.org/computing/computer-science/algorithms/intro-to-algori
 Muito interessante também o livreto The Magic of Computer Science III Links to an external site., que usa truques de mágica para explicar conceitos de computação, incluindo o pensamento computacional e o pensamento algorítmico.
 
 https://cs4fndownloads.files.wordpress.com/2016/03/cs4fnmagicbook3.pdf
+
+ ## Tema 3: Outras estratégias para resolver problemas
+ 
