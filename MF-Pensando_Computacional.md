@@ -134,3 +134,4 @@ Etapa de avaliação de solução é utilizada para ceritificar se a solução r
 
   https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
 
+# UNIDADE 2: Computação desplugada
