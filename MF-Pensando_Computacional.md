@@ -28,10 +28,10 @@ Já o pensando algorítmico é uma subseção do pensamento computacional, que t
 #
  Não necessariamente existe uma sequência restrita e bem definida de passos para resolver um determinado problema.
 
-- Decomposição: Quebra do problema em problemas menores, e mais gerenciáveis.
-- Reconhecimento de padrões: Analisar e identificar similaridades entre partes diferentes.
-- Abstração: Identificar os detalhes mais importantes e desprezar os demais.
-- Automação (Algorítmico): Desenvolver um processo passo a passo para resolver o problema (por humanos ou computadores)
+- **Decomposição:** Quebra do problema em problemas menores, e mais gerenciáveis.
+- **Reconhecimento** de padrões: Analisar e identificar similaridades entre partes diferentes.
+- **Abstração:** Identificar os detalhes mais importantes e desprezar os demais.
+- **Automação (Algorítmico):** Desenvolver um processo passo a passo para resolver o problema (por humanos ou computadores)
 
 https://sorayaroberta.com/guia.pdf
 
@@ -81,5 +81,56 @@ Muito interessante também o livreto The Magic of Computer Science III Links to 
 
 https://cs4fndownloads.files.wordpress.com/2016/03/cs4fnmagicbook3.pdf
 
- ## Tema 3: Outras estratégias para resolver problemas
- 
+## Tema 3: Outras estratégias para resolver problemas
+
+### Parelelização
+Objetivo
+
+- Compreender o conceito de paralelismo
+- Entender os benefícios advindos do paralelismo
+- Saber quando aplicar o paralelismo
+# 
+O paralelismo é a capacidade de realizar taferas paralelament sem que haja depedência entre elas. O paralelização pode ser baseada um dos dois grupos:
+
+- Particionamento de dados, e
+    Os dados são particionados para serem manipulados paralelamente
+- Particionamento de tarefas
+    Tarefas independentes são distribuídas para serem executadas simultaneamente
+
+  Ambos tipos de particionamento podem fazer parte em uma mesma solução.
+
+  - Leitura Aditional
+
+  Para conhecer um pouco mais sobre a computação paralela, leia as duas primeiras seções do capítulo 6 Processadores paralelos do cliente à nuvem do livro eletrônico "Organização e projeto de computadores a interface hardware/software Links to an external site.", de David Patterson, 2017.
+
+### Simulação
+Objetivo
+
+- COmpreender a estrátefia de simulção
+- Conhecer os passos dpara desenvolvimento de uma simulação
+- Saber quando a simulação é um estratégia
+#
+
+Simulação também é uma abordagem de resolução de problemas. Solução também considerado como abstração ou pensamento computacional, realizando simplificação da realiade. 
+
+Exemplos de simulação incluem mas não se limitam: Teste de segurança de veículos, simulação de terremos e tempestades.
+
+No contexto de aprendizagem, a simulação é útil para compreensão de conceitos,e testar soluções sendo mais fácil, barata e sem riscos ao mundo real. Encontrar, testar, justificar e aplicar soluções podem usar como pilar o uso de simulação.
+
+- Leitura Aditional
+
+Conheça um pouco mais sobre simulação, lendo a parte III (mais especificamente o cap. 6) do livro eletrônico: JOHNSON, Thienne; COUTINHO, Mauro Margalho. Avaliação de desempenho de sistemas computacionais Links to an external site.. Rio de Janeiro: LTC, 2011. E-book. ISBN 978-85-216-2022-8
+
+### Avaliação de soluções
+Objetivos
+
+- Compreender a importância de se avaliar uma proposta de solução
+- Entender quais critérios devem ser avaliados
+#
+
+Etapa de avaliação de solução é utilizada para ceritificar se a solução resolve por o problema por completo ou parcial, é o objetivo foi alcançado de forma elegante e otimizada. É prudente presumir que um algoritmo está incorreto até que seja monstrado atrás de testes como correto.
+
+- Leitura aditional
+
+  https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
+
