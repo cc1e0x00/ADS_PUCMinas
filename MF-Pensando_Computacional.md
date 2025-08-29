@@ -135,3 +135,38 @@ Etapa de avaliação de solução é utilizada para ceritificar se a solução r
   https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
 
 # UNIDADE 2: Computação desplugada
+
+Objetivos
+- Compreender o conceito de computação desplugada
+- Saber o objetivo da computação desplugada
+- Conhecer os princípios da computação desplugada
+#
+
+## Tema 1: Computação desplugada: Conceito e importância
+
+### O que é computação desplugada
+Computação desplugada tem como proposta o ensino de conceitos computacionais, como diversos conceitos da Ciência da Computação, tal como compreesão de dados, avaliação de interface, algoritmos de classificação e busca sem a utilização de computadores.
+
+Dez princípios da computação desplugada:
+
+1. Não depender do uso de computadores
+2. Não focar em programação
+3. Tonar atividades cinestésicas
+4. Envolver atividades divertidas
+5. Usar materias de baixo custo
+6. Liberar material para o uso de terceiros
+7. Independente de gênero
+8. Utilizar história para captar interesse
+9. Estimular autonomia
+10. Adaquar0se a paquenos erros dos participantes
+
+### Importância da computação desplugada
+Computação desplugada auxilia no desenvolvimento do pensamento computacional sem a necessidade de dispositivos computacionais como Table, computadores etc.
+
+## Tema 2: Resolução de problema computacionais sem computador
+
+Objetivos
+
+- Compreender qie não é preciso ter um computador para pensar em uma solução computacional
+- Entender os fundamentos de compressão de texto, sem aprofundar nos conhecimentos técnico-teóricos
+
