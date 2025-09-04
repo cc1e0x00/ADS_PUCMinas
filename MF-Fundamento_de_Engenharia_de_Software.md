@@ -74,3 +74,16 @@ Processo de desenvolvimento de software é conjunto estruturado de atividades ne
 - Insumos: São artefatos que servem de entrada para a execução de uma atividade
 - Papéis: Refletem as reponsabilidades das pessoas envolvidas no processo;
 - Pré e pós condições: São declarações que são verdadeiras antes e depois de uma ativdade do processo ser executada, ou um produto produzido
+
+**Modelos de ciclos de vida**
+
+- Modelo sequencial linear
+- Modelo em casczta (watarFall)
+- Modelo Incremental
+- Modelo Incremental evolutivo
+- Modelo Espiral
+- Modelo iterativo (permitir repetir atividades/passos)
+- Modelo V (Combinar testes com o desenvolvimento)
+
+* Leitura aditional
+https://www.devmedia.com.br/ciclos-de-vida-do-software/21099
