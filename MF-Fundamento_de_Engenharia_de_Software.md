@@ -88,4 +88,52 @@ Processo de desenvolvimento de software é conjunto estruturado de atividades ne
 * Leitura aditional
 https://www.devmedia.com.br/ciclos-de-vida-do-software/21099
 
-## Tema 2: Processos ágeis
+## Tema 2: Processos de Software
+
+## Processos Ágeis
+
+Nesta seção teremos um primeiro contato com SCRUM que é um processo ágeis bastente utilizado em todo mundo. Com base no SCRUM, veremos caracteristicas dos processos ágeis e o manifesto ágil.
+
+Uma das crises do software foi resolvido temporáriamente com a criação da ideia da Engenharia de software. Entretanto, uma segunda leva da crise do software surgiu com os desenvolvedores tendo dificuldades em entregar projetos dentro custo previsto ou mesmo evitar grande gama de projetos cancelados.
+
+Aliança ágel (agile aliance em 2001) 17 metodologistas
+
+Além disso, muitos dos desenvolvedores não se sentiam parte ou com voz ativa, com possibilidades de tomar de decisões em muitos dos projetos. Com esse sentimento e insastifação, os desenvolvedores se organizaram e surgiu o manifesto ágil.
+
+*Processos ágeis seguem o modelo incremental e interativos com pequenas e contantes entregas (entre duas ou três semanas)*
+
+Manifesto ágil surgiu em 2001 junto com a crianção da aliança ágil (agille alliance) com grupo de 17 desenvolvedores ou pessoas que fazem prática da engenharia de software.
+
+**Valores para o desenvolvimento de software**
+- Individuos e interações têm mais valor que processos e ferramentas
+- Software operacional tem mais valor que uma documentação abrangemte
+- Colaboração com o cliente tem mais valor que negociação contratual
+- Repostas a mudanças têm mais valor que aderência a um plano
+
+**Os 12 princípios Ágeis**
+
+1. **valor**: A maior prioridade está em satisfazer o cliente por meio da entrega adiantada e contínua de software de valor.
+2. **Flexibilidade**: Processos ágeis se adequam a mudanças, para que o cliente poosa tirar vantgens competitivas, aceitando alterações de requisitos mesmo no fim do desenvolvimento.
+3. **Frequência**: Entrega o software em funcionamento com frequência, seja na escala de semanas ou meses, dando preferência a períodos mais curtos.
+4. **União**: Tanto pessoaos relacionadas a negócios como desenvolvedores devem trabalhar em conjunto diariamente, durante todo o curso do projeto.
+5. **Motivação**: Para construir projetos ao redor de indivíduos motivados, é preciso dar a eles o ambiente e o suporte necessários confiando que farão seu trabalho.
+6. **Comunicação**: O método mais eficiente de transmitir informações tanto externas como internas um time de desenvolvimento é por meio de uma conversa cara a cara.
+7. **Funcionalidade**: Um software funcional é a medida primária do profresso.
+8. **Sustentabilidade**: Processos ágeis promovem um ambiente sustentável como patrocionadores, desenvolvedores e usuários sendo capazes de manter passos contantes.
+9. **Revisão**: A contínua atenção à excelência técnica e ao bom design aumenta a agilidade.
+10. **Simplicidade**: Simplicidade é a arte de maximizar a quantidade de trabalho que não precisou ser feito.
+11. **Organização**: As melhores arquiteturas, os requísitos e os designs emergem de times auto organizáveis.
+12. **Autoavaliação**: Em intervalos regulares, o time reflete em como ficar efetivo, então, se ajustam e otimizam o seu comportamento de acordo.
+
+Exemplos de processos ágeis
+
+- eXteme Programming(XP)
+- SCRUM
+- Dyamic System Development Method (DSDM)
+- Crystel Families
+
+**Introdução ao SCRUM**
+
+SCRUM tem como abordagem entender que inicialmente o problema não está compreendido em sua totalidade inicialmente. Aceitam que requisitos mudarão com o passar do tempo, dessa forma aceitando mudanças no projeto.
+                                              
+Plenajamento geral e arquiterura --> Avaliar --> Selecionar --> Desenvolver --> Revisar --> Encerramento do projeto
