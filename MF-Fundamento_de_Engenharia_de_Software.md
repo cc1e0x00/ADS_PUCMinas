@@ -137,3 +137,108 @@ Exemplos de processos ágeis
 SCRUM tem como abordagem entender que inicialmente o problema não está compreendido em sua totalidade inicialmente. Aceitam que requisitos mudarão com o passar do tempo, dessa forma aceitando mudanças no projeto.
                                               
 Plenajamento geral e arquiterura --> Avaliar --> Selecionar --> Desenvolver --> Revisar --> Encerramento do projeto
+
+O ciclo do SCRUM pode ser repetido N vezes antes do seu encerramento
+
+Características
+
+- Equipes pequenas e multidisciplinares
+- Versões incrementais com iterações curtas
+- Equipes auto-organizadas com liderança diluída
+- Facilitador: Scrum Master
+- Trabalho organizado a partir da lista de backlog de tarafes do produto (priorizada)
+- Comunicação e cooperação entre as equipes se intensificam para produzir resultados
+
+Os três papéis
+
+*Productor Owner*
++ Responsável pelo valor de negócio do produto
++ Representante do cliente junto da equipe
++ Controla, gerencia e prioriza o backlog do produto
+
+*Scrum Master*
++ Toma iniciativas para melhora o trabalho, resolve os impedimentos
++ Não se envolve com o trabalho técnico
+
+*Desenvolvedores*
++ Auto-organizada
++ Responsável por entregar valor por meio de software com qualidade
+
+**Cerimônias e artefatos do SCRUM**
+
+_Artefatos_
+
+- backlog do produto
+  - Lista de requisitos de tudo que precisa ser feito no produto
+  - Contêm história de usuário. Informa quem é o usuário, o que ele precisa do software e a justificativa
+  - Quem? (Exemplo: Stakeholders como Clientes, Atendente e **gestor**) O quê?, Por quê?
+  - O quê? ( Exemplo: Descrever a necissidade; Gestor "Eu quero consultar informações sobre histórico de clientes")
+  - Por quê? (Exemplo: Para prover promoções e transformá-lo em VIP)
+
+- Incremento do produto (nova parte ser produzida do produto)
+    - Sublista do backlog do produto que serão movidos para backlog da sprint
+
+- Backlog da sprint
+  - Items do backlog que serão trabalhos durante a spring
+ 
+_As quatro cerimônias_
+
+- Reunião de planejamento da Sprint (definir backlog)
+- Reunião diária (Daily 15 min)
+- Revisão da sprint
+- Retrospectiva da Sprint
+
+https://scrumreferencecard.com/ScrumReferenceCard.pdf
+https://artia.com/blog/scrum/
+
+## Processos prescitivos
+
+Os processos prescitivos, todas as tarefas são definidas inicialmente
+
+**RUP - Rational Unified Process** 
+
+Pricípios
+- Atacar os riscos principais de forma rápida e contínua
+- Garantir que se está provendo algo de valor ao cliente
+- Concentrar se em produzir software executável
+- Acomodar mudanças no projeto
+- Definir a arquitetura o mais cedo possível
+- Construir o sistema com componentes
+- Trabalhar em equipe
+- Fazer da qualidade uma forma de vida
+
+Problematicas com processos prescritivos
+
+- É baseado no paradigma comando e controle
+- São mais atrativos para gerentes que para a maioria dos desenvolvimentos
+- Segmenta o desenvolvimento de software em espacialidades que não possuem visão do todo
+- Muitas vezes são abandonadas em situações críticas
+
+https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf
+https://www.tutorialspoint.com/uml/uml_overview.htm
+
+## Requisitos funcionais
+Os requisitos funcionais descreve funcionalidades, comportamentos, interações etc do sistema. Dependendo do processo de software utilizado, terá diferentes formas de descrever os requisitos funcionais:
+
+SCRUM - Histórias de usuário no backlog do produto;
+RUP - Casos de uso na Especificação de requisitos de software (ERS)
+
+Exemplo de requisistos funcionais
+
+- O sistema deve permitir ao usuário incliur um perfil de cliente;
+- O sistema deve emitir um relat;orio de vendas, indicando a data da compra, o que foi comprado, a rentabilidade do cliente para empresa;
+- O sistema deve permitir a consulta de saldo ou estoque para as impressoras 3D
+
+https://www.inf.ufsc.br/~jean.hauck/guias/29110/Norma%20ISO%2029110%20Perfil%20de%20Entrada%20Básico/guidances/examples/documento_especificao_de_requisitos_2CFB343D.html
+
+## Requisitos não funcionais
+Esse tipo de requisito não descreve uma funcionalidade mas as características de qualidade que o sistema todo ou uma funcionalidade devem ter. Como segurança, usabilidade, padrões se serem seguidos, confiabilidade, disponibilidade etc.
+
+- O Sistema deve funcionar 24hrs por dia, todos os dias da semana;
+- Os sistema deve funcionar perfeitamente com 100.00 usuários
+- O sistema deve ser suportado em todos os sistemas operacionais mobile
+- O software deve apresentar as opções de restautes próximos em no máximo 2 segundos
+- 
+
+https://www.ateomomento.com.br/o-que-e-um-requisito-nao-funcional/
+https://leonardo-matsumota.com/2019/03/18/definicao-de-pronto-dod-definition-of-done/
