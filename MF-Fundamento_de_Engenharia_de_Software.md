@@ -345,7 +345,8 @@ Um conjunto de teste é chamado de plano de testes. Plano de testes contêm a do
     - Testes navegabilidade (HyperLink e abas funcionan?)
     - Testes de responsividade (Págiba WEB funciona em dispositivos móveis)
     - testes de compos e páginas (Validar campos Ex.: Campo "Nome"apenas letras, campo "CPF" apenas números inteiros)
-    - Testes ponta a ponta 
+    - Testes ponta a ponta
+        - teste ponto a ponta buscar tester toda uma funcionalidade de ponta a ponto: Exem. Testar a funcionar de comprar inclui a escolha do produto, cadastro de um novo cliente, pagamento e acompanhamento da entrega.
 
 Exemplo de tabela específica para determina aplicação
 
