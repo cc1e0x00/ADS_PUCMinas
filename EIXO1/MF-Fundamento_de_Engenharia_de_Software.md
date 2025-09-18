@@ -439,7 +439,20 @@ Artefatos de software criadas durante as atividades tecnicas e gerências. Esses
 ![trello](../IMAGENS/trello.png)
 
 
+## Tema 3: Conectando atividades para definir processo
 
+**DESENHANDO PROCESSOS DE SOFTWARE**
 
+O desenho de processos de software é adotar particularidades de diversos abordagem de projetos para que satifaça a maturidade e maturidade do time/empresa seja ela fábrica de software ou software house.
 
+- Processo de software
+  - Adaptar processos existentes
+  - Acrescentar atividades necessárias
+  - Combinar práticas 
+  - Evoluir e melhorar o processo
 
+- Elementos essencias dos processos
+  - Atividades, ou seja, o que precisa ser feito indicando uma prática ou ténica ser usada
+  - Produtos ou artefatos: resultado de atividades que serão entradas em outras atividades
+  - Papéis: Responsabilidades e pessoas envolvidas no processo
+  - Modelo de ciclo de vida
