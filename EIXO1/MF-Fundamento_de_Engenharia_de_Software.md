@@ -240,7 +240,7 @@ Esse tipo de requisito não descreve uma funcionalidade mas as características 
 - Os sistema deve funcionar perfeitamente com 100.00 usuários
 - O sistema deve ser suportado em todos os sistemas operacionais mobile
 - O software deve apresentar as opções de restautes próximos em no máximo 2 segundos
-- 
+
 
 https://www.ateomomento.com.br/o-que-e-um-requisito-nao-funcional/
 https://leonardo-matsumota.com/2019/03/18/definicao-de-pronto-dod-definition-of-done/
