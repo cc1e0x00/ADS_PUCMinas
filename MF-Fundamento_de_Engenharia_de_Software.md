@@ -428,6 +428,13 @@ Saída do sistema: página não encontrada
 Registro de execução: falha no teste
 ```
 
+## Tema 2: Artefatos de Software
+
+**GUIAS E TEMPLATES**
+
+
+
+
 
 
 
