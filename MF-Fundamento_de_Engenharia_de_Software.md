@@ -331,4 +331,31 @@ Cliente verifica, teste se o software estar de acordo com as espectativas.
 - Gestão de processsos
  - Estimativas de software (tempo, time da equipe, esforço, custo, tamanho do software)
 
-**ATIVIDADES TÉCNICAS**
+**TESTES DE SOFTWARE**
+
+O objetivo dos teste é revelar possíveis defeito porém é possível que após diversos teste o software contenha defeitos (bugs). Em geral testes são dividos em **testes funcionais** e **testes estruturais**.
+
+ - Teste Funcional: Busca testar o código na pespectiva do usuário do software.
+ - Teste estrutura: Busca testar o software na pespectiva do desenvolvedor, olhando para a estrutura do código.
+
+Um conjunto de teste é chamado de plano de testes. Plano de testes contêm a documentação de casos de teste e objetivos de cada conjunto de testes como: Teste de desempenho, testes funcionais da história de usuário x, testes de responsividade, teste de campos de formulários, testes de navegabilidade ou links e testes ponta a ponta.
+
+- **Testes para aplicações Front End**
+
+    - Testes navegabilidade (HyperLink e abas funcionan?)
+    - Testes de responsividade (Págiba WEB funciona em dispositivos móveis)
+    - testes de compos e páginas (Validar campos Ex.: Campo "Nome"apenas letras, campo "CPF" apenas números inteiros)
+    - Testes ponta a ponta 
+
+Exemplo de tabela específica para determina aplicação
+
+|ID hist. de usuário | Funcionalidade | Campos    | Obrigatório? | Tipo       |  Tamanho   | Editável   | Permite Caract. especiáis? |
+| -------------------|----------------|-----------|--------------|------------|------------|------------|--------------------------- |
+|#1234               |   Login        | Usuário   |      Sim     | Alfa Num.  |    14      |     Sim    |           Não              |
+|                    |                | Senha     |      Sim     | Alfa. Num. |    10      |    Sim     |           Sim              |
+|                    |                | Enviar    |      Sim     | N/A        |    N/A     |    N/A     |           N/A              |
+|                    |                | Cancelar  |      Não     | N/A        |    N/A     |    N/A     |           N/A              |
+
+
+
+
