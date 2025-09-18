@@ -254,32 +254,43 @@ https://leonardo-matsumota.com/2019/03/18/definicao-de-pronto-dod-definition-of-
 Todas engenharias incluem atividades atividades técnicas e gerencias.
 
 - Técnicas
+
+  
   Engenharia de requisitos, Projeto de Software, implementação, testes, manutenção e evolução, medição.
 
 - Gerenciais
+
+
   Aceite pelo cliente, garência de configuração, gerência de requisitos, gerência de projetos, gerência da qualidade, gestão do processo, estimativas
 
 - Apoio
+  
   Comunição, gestão de pessoas, gestão de equipes
 
 
 Dando mais pronfundidades nas atividades técnicas relacionadas descrição e levantamento de requisitos, abaixo estarão mais detalhes de cada atividade:
 
 - Levantamento de requisitos (Elicitação)
+  
   Aqui se encontra os levantamento de requisitos funcionais e não funcionais para descobrir os problemas, e as necessidades do clientes. Entevista, questinários, leitura de docs, observações, pesquisas de levantamento de dados, prototipação etc.
 
-- Análise dos requisitos 
+- Análise dos requisitos
+  
   Estudo detalhado do requisitos para que sejam encontradas lacunas, inconsistência, e conflitos. Nesse estágio, é comum a utilização de **modelagem**.
 
 - Especifição dos requisitos (descrição)
+
   Descrever em detalhes os requisitos de maneira clara, precisa e sem ambuiguidades.
 
 - Validação dos requisitos
+
+  
   Revisão os items que foram descritos para validar se os requisitos estão corretos. Pode ser utilizado: Protótipos e notação
   
 Temos também atividades técnicas relacionadas no desenvolvimento da solução:
 
 - Projeto (design) de software
+
 Neste estágio, serão estudados diversas alternativas de solução e ponderação entre elas, e por fim a escolha da solução que será adotada no projeto. 
   - Arquitetura do software de forma abstração representando onde estarão os componentes e suas comuniçãos
   - Projeto detalhas com cada parte ou elementos com riqueza de detalhes como: Funções, responsabilidades, algoritmos, estruturas de dados etc.
@@ -306,3 +317,18 @@ Cliente verifica, teste se o software estar de acordo com as espectativas.
 - Medição do software
 
   Incluem tarefas como metas, definição de prioridades.
+
+**ATIVIDADES GERENCIAIS DE ENGENHARIA DE SOFTWARE**
+ Atividades gerencias como o nome diz, refere-se as atividades de gestão como controle de processos, qualidade dos produtos, as estimativas acertadas, satisfação do cliente e cuidar da complexidade do produto.
+
+ - Gestão de configuração (versionamento) e controle de mudanças
+ - Gerência de Projetos (prazo, custo, recursos, ferramentas etc)
+ - Gerência de requisitos
+    - Priorização dos requisitos
+    - Aprovações de mudanças
+    - Controle de escopo
+    - Rastrabilidade
+- Gestão de processsos
+ - Estimativas de software (tempo, time da equipe, esforço, custo, tamanho do software)
+
+**ATIVIDADES TÉCNICAS**
