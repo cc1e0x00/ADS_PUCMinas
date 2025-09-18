@@ -434,7 +434,7 @@ Registro de execução: falha no teste
 
 Artefatos de software criadas durante as atividades tecnicas e gerências. Esses artefatos, podem ser gerenciados através de diversas ferramentos como Kaban para backlog, plataformas de rastramento de BUG e o trello como exemplo de história de usuário.
 
-![Kanban](../IMAGENS/Kanban.png\)
+![Kanban](../IMAGENS/Kanban.png)
 
 ![trello](../IMAGENS/trello.png)
 
