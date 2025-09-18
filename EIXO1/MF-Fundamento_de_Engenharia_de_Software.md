@@ -65,7 +65,7 @@ Processo de desenvolvimento de software é conjunto estruturado de atividades ne
 
 - As atividades
 - Duração
-- ordem
+- Ordem
 
 **Descrição de processos**
 
@@ -434,8 +434,10 @@ Registro de execução: falha no teste
 
 Artefatos de software criadas durante as atividades tecnicas e gerências. Esses artefatos, podem ser gerenciados através de diversas ferramentos como Kaban para backlog, plataformas de rastramento de BUG e o trello como exemplo de história de usuário.
 
+Kanban
 ![Kanban](../IMAGENS/Kanban.png)
 
+Trello template para história do usuário
 ![trello](../IMAGENS/trello.png)
 
 
@@ -456,3 +458,19 @@ O desenho de processos de software é adotar particularidades de diversos aborda
   - Produtos ou artefatos: resultado de atividades que serão entradas em outras atividades
   - Papéis: Responsabilidades e pessoas envolvidas no processo
   - Modelo de ciclo de vida
+
+  Abaixo alguns exemplos de processos de software como RUP, Cascata e SCRUM compartilhados em aula
+
+_Metodologia Cascata_
+
+![cascata](../IMAGENS/Metodologia.%20Cascata%20.png)
+
+_Metodologia RUP_
+
+![RUP](../IMAGENS/Metodologia%20RUP.png)
+![RUP-estagios](../IMAGENS/estagios%20do%20RUP.png)
+
+_Metodologia SCRUM_
+
+![SCRUM](../IMAGENS/Métodos%20Scrum.png)
+
