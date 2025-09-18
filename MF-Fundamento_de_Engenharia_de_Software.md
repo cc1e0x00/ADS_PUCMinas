@@ -358,5 +358,77 @@ Exemplo de tabela específica para determina aplicação
 |                    |                | Cancelar  |      Não     | N/A        |    N/A     |    N/A     |           N/A              |
 
 
+_História de usuário e Casos de teste_
+
+> Eu como viajante gostaria de reservar um quarto apara 4 pessoas (2 adualtos e 2 crianças) para 3 dias na tarifa mais barata a partir de hoje porque preciso saber da disponibilidade de hospedagem e o valor total
+
+```
+Caso de testes 1:
+Objetivo: testar a funcionalidade 
+Número de hóspedes: 4 (2 adultos e 2 crianças)
+Número de noites: 3 noites
+Data de início: 1/06/2021
+Saída esperada: confirmação e valor da estadia: R$660,00
+
+Caso de testes 2:
+Objetivo: testar a funcionalidade 
+Número de hóspedes: 10 (2 adultos e 8 crianças)
+Número de noites: 4 noites
+Data de início: 1/06/2021
+Saída esperada: não existe quarto para acomodar 10 hóspedes
+
+Caso de testes 3:
+Objetivo: testar a funcionalidade 
+Número de hóspedes: 4 (2 adultos e 2 crianças)
+Número de noites: 5 noites
+Data de início: 1/06/2021
+Saída esperada: só temos disponibilidade para 2 noites.
+
+Caso de testes 4:
+Objetivo: testar os campos 
+Número de hóspedes: 5 (2 adultos e 3 crianças)
+Número de noites: 5 noites
+Data de início: 1-06-21
+Saída esperada: por favor entre com a data no formato: dia/mês/ano.
+
+Caso de testes 5:
+Objetivo: testar os campos 
+Número de hóspedes: 0
+Número de noites: 3
+Data de início: 1/06/2021
+Saída esperada: por favor forneça o número de hóspedes.
+
+Caso de testes 6:
+Objetivo: testar a responsividade no smartphone e navegabilidade
+Número de hóspedes: 4 (2 adultos e 2 crianças)
+Número de noites: 3 noites
+Data de início: 1/06/2021
+Saída esperada: página responsiva indicando de confirmação e valor da estadia: R$660,00.>
+```
+
+Além de realizar os casos de teste, é preciso registra a saída e se o falhou ou teve sucesso
+
+```
+Caso de testes 1:
+Objetivo: testar a funcionalidade 
+Número de hóspedes: 4 (2 adultos e 2 crianças)
+Número de noites: 3 noites
+Data de início: 1/06/2021
+Saída esperada: confirmação e valor da estadia: R$660,00 
+Saída real do sistema: confirmação e valor da estadia: R$780,00
+Registro de execução: falha no teste
+
+Caso de testes 6:
+Objetivo: testar a responsividade no smartphone e navegabilidade
+Número de hóspedes: 4 (2 adultos e 2 crianças)
+Número de noites: 3 noites
+Data de início: 1/06/2021
+Saída esperada: página responsiva indicando de confirmação e valor da estadia: R$660,00 
+Saída do sistema: página não encontrada
+Registro de execução: falha no teste
+```
+
+
+
 
 
