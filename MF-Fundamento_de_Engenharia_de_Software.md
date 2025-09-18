@@ -285,7 +285,24 @@ Neste estágio, serão estudados diversas alternativas de solução e ponderaç�
   - Projeto detalhas com cada parte ou elementos com riqueza de detalhes como: Funções, responsabilidades, algoritmos, estruturas de dados etc.
 
 - Implementação ou condificação
+  
   Transforma modelos de projeto em código escrito em uma linguagem de programação
 
 - Testes de software
- Verificação se o software funciona devidamente como esperado satisfazendo os requisitos do cliente. Testes podem ser realizadas de forma manuais ou automatizados podem se concentrar no código, usuário ou na especificação dos requisitos.
+
+Verificação se o software funciona devidamente como esperado satisfazendo os requisitos do cliente. Testes podem ser realizadas de forma manuais ou automatizados podem se concentrar no código, usuário ou na especificação dos requisitos.
+
+- Aceitação
+
+Cliente verifica, teste se o software estar de acordo com as espectativas.
+
+- Manutenção de software (Evolução)
+  - Correções
+  - Melhorias
+  - Novos requisitos
+  - Novas necessidades
+  - Mudanças de tecnologias
+
+- Medição do software
+
+  Incluem tarefas como metas, definição de prioridades.
