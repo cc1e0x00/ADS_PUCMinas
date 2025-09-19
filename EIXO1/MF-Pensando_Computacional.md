@@ -170,3 +170,4 @@ Objetivos
 - Compreender qie não é preciso ter um computador para pensar em uma solução computacional
 - Entender os fundamentos de compressão de texto, sem aprofundar nos conhecimentos técnico-teóricos
 
+## Verificar tópicos pendentes
