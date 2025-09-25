@@ -177,18 +177,18 @@ class MainClass{
 
 ***SAÍDA DE DADOS**
 
-Em C# para imprimit informações na tela como a função print() do python temos:
+Em C# para imprimir informações na tela como a função print() do python temos:
 
 - Console.Write() _O cursor permanece na mesma linha_
 
 
 - Console.WriteLine() _Cursor pula próxima linha, como se tivesse preechinado a tecla enter_
 
-```Console.Write("Mensagem") ```
+```Console.Write("Mensagem"); ```
 
-```Console.Write(VAR)```
+```Console.Write(VAR);```
 
-```Console.Write("Mesagem 1 " +VAR1+" Mensagem2 "+VAR2 )```
+```Console.Write("Mesagem 1 " +VAR1+" Mensagem2 "+VAR2 );```
 
 Exemplo de manupulação de saída de dados
 
@@ -202,13 +202,94 @@ class MainClass {
         string nome = "João Silva";
 
         // Concatenação
-        Console.WriteLine("Meu nome é "+nome+" e tenho "+idade+" anos de idade.")
+        Console.WriteLine("Meu nome é "+nome+" e tenho "+idade+" anos de idade.");
         // PlaceHolder
-        Console.WriteLine("Meu nome é {0} e tenho {1} anos de idade.", nome, idade)
+        Console.WriteLine("Meu nome é {0} e tenho {1} anos de idade.", nome, idade);
         // Interpolação
-        Console.WriteLine("Meu nome é {nome} e tenho {idade} anos de idade")
+        Console.WriteLine("Meu nome é {nome} e tenho {idade} anos de idade");
 
-        Console.ReadKey()
+        Console.ReadKey();
     }
 }
 ```
+
+***ENTRADA DE DADOS**
+
+O comando ``` VAR = Console.ReadLine()``` é utilizado para receber _input_ de dados do usuário. O dado digitado precisar ser coerente com o tipo da variável, ou seja, se a VAR for do tipo _**int**_ outro tipo de dado não será aceito.
+
+- Lendo valores inteiros
+
+```C#
+variavel = int.Parse(Console.ReadLine());
+
+variavel = Convert.ToInt32(ConsoleReadLine());
+```
+
+- Lendo texto
+
+```C#
+variavel = Console.ReadLine();
+```
+
+- Lendo valores booleanos
+
+```C#
+variavel = bool.Parse(Console.ReadLine());
+```
+
+Exemplo de entrada de dados
+
+```C#
+// Exemplo 1
+using System;
+
+class MainClass {
+    public static void Main (string[] args) {
+        int n1, n2; f
+        double n3, n4;
+        float n5;
+        string s;
+        bool b1, b2;
+        // Leitura de Inteiros
+        Console.Write("Digit um número inteiro: ");
+        n1 = int.Parse(Console.ReadLine());
+        n2 = Convert.ToInt32(Console.ReadLine());
+
+        // Leitura de valores ponto-flutuante
+        Console.Write("Digite um nuúmero real/flutuante: ");
+        n3 = double.Parse(Console.ReadLine());
+        Console.Write("Digite outro número real: ");
+        n4 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Digite mais um número real: ");
+        n5 = float.Parse(Console.ReadLine());
+
+        // Leitura de valor booleano
+        Console.Write("Digite um booleano (Digite true ou false): ");
+        b1 = bool.Parse(Console.ReadLine);
+        Console.ReadKey();
+    }
+}
+```
+
+```C#
+// Exemplo 2
+using System;
+
+class MainClass {
+    public static void Main (string[] args) {
+        int n1, n2, soma;
+        double media;
+        //Entrada de dados
+        Console.Write("Digite um número; ");
+        n1 = int.Parse(Console.ReadLine());
+        Console.Write("Digite outro número: ");
+        n2 - int.Parse(Console.ReadLine());
+        // Processamento / Cálculo
+        soma = n1 + n2;
+        media = some / 2;
+        // Saída de Dados
+        Console.WriteLine("Soma = "+some);
+        Console.WriteLine("Media = "+media);
+        
+    }
+}
