@@ -290,6 +290,9 @@ class MainClass {
         // Saída de Dados
         Console.WriteLine("Soma = "+some);
         Console.WriteLine("Media = "+media);
-        
+
     }
 }
+```
+
+#### ESTRUTURA SEQUENCIAL - OPERADORES E FUNÇÕES ARITMÉTICAS
