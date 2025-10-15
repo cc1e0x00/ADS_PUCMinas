@@ -108,7 +108,7 @@ Essas interação contêm um formato de mensagem divido em três partes:
 ```http
 POST /app/processamento HTTP/1.1
 
-User-Agent: Mozilla/4.o0 (Compatible...)
+User-Agent: Mozilla/4.0 (Compatible...)
 Host: www.pucminas.br
 Content-Type: text/xml; charset=utf-8
 Content-Length: 88
@@ -202,3 +202,29 @@ Para maior detalhes sobre tipo de dados, [MIME Type](https://developer.mozilla.o
 
     - GitHub Pages
 
+#
+#### Dinâmica de aplicações WEB
+A comunição entre o browser e o servidor Web segue alguns passos para que o site requisito seja renderizado a apresentado.
+
+![carregamento_site.png](/IMAGENS/carregamento_site.png)
+
+1. Usuário informa a URL no Navegador;
+2. O cliente DNS solicitada a resolução de novo ao servidor DNS;
+3. O servidor DNS realiza a resolução e devolve para o cliente;
+4. O cleinte solicita o arquivo index.html para o navegador;
+5. O navegador identifica o link do HTML que com  o arquivo style.css e solicita este arquivo ao servidor;
+6. O servidor encaminha o arquivo style.css para o navegador;
+7. O Navegador identifica o link do HTML com o arquivo app.js e solicita este arquivo ao Servidor.
+8. O Servidor encaminha o arquivo app.js para o Navegador.
+9. O Navegador identifica o link do HTML com o arquivo logo.jpg e solicita este arquivo ao Servidor.
+10. O Servidor encaminha o arquivo logo.jpg para o Navegador.
+11. O Navegador apresenta a página para o Usuário
+
+**Exemplo de estrura de página HTML**
+![estrutura_html_exemp.png](/IMAGENS/estrutura_html_exemp.png)
+
+Recurso adicionais por Developer Mozilla:
+
+[Introdução ao CSS](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Structuring_content)
+
+[Como funciona CSS](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Styling_basics/What_is_CSS)
