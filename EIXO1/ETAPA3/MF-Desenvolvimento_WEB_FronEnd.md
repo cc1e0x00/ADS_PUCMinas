@@ -50,7 +50,7 @@ Estágios do desenvolvimento de padrões pela WEC
 
 * URI, URL, e URN
 
-    * URI (Uniform Resource Identifier): Padrão para endereçamento de recursos de rede que engloba
+    * **URI** (Uniform Resource Identifier): Padrão para endereçamento de recursos de rede que engloba
     ambos conceitos de URL (Uniform Resource locator) e URN Uniform Resource name.
 
 [Wikipedia Uniform Resource Identifier](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
@@ -58,7 +58,7 @@ Estágios do desenvolvimento de padrões pela WEC
 ![URI](/IMAGENS/URI_URL_URN.png)
 
 
-* URL (Uniform Resource Lecator) É um padrão de URI que serce para referenciar um recurso e sua localização
+* **URL** (Uniform Resource Lecator) É um padrão de URI que serce para referenciar um recurso e sua localização
 composto das seguintes partes:
     
     * Esquema - Identifica o protocol entre cliente e servidor. Ex.: HTTP, HTTPS, FTP, SFTP, etc;
@@ -72,7 +72,7 @@ composto das seguintes partes:
     
     ![URL](/IMAGENS/URL.png)
 
-* URN (Uniform Resource Name) é um padrão URI que serve identificar um recurso (NSS) pelo nome em um determinado amespace (NID). Ou seja, identifica um recurso sem específicar sua localização.
+* **URN** (Uniform Resource Name) é um padrão URI que serve identificar um recurso (NSS) pelo nome em um determinado amespace (NID). Ou seja, identifica um recurso sem específicar sua localização.
     
     * Exemplo de urn para identificar livro - **urn:isbn:978-1-491-91866-1**
     * NID - NameSpace Identifier
@@ -100,14 +100,60 @@ As interações entre cliente em servidor são compostas por  requisição HTTP 
 Essas interação contêm um formato de mensagem divido em três partes:
 
 **Cliente**
-* Linha de requisição: informa o método da requisição, o recurso e a versão do HTTP;
-* Linhas de cabeçalho: Inclui informações complementares sobre a requisição no formato *chave:valor* para cada linha;
-* Corpo da entidade: Carrega dados adicionais pessadas pelo cliente, tais como: Dados de formulários, arquivos completos
+* **Linha de requisição:** informa o método da requisição, o recurso e a versão do HTTP;
+* **Linhas de cabeçalho:** Inclui informações complementares sobre a requisição no formato *chave:valor* para cada linha;
+* **Corpo da entidade:** Carrega dados adicionais pessadas pelo cliente, tais como: Dados de formulários, arquivos completos
     em um processo de upload, entre outros.
 
 ```http
 POST /app/processamento HTTP/1.1
-
 User-Agent: Mozilla/4.o0 (Compatible...)
 Host: www.pucminas.br
+Content-Type: text/xml; charset=utf-8
+Content-Length: 88
+Accept-Language: en-us
+Connection: Keep-Alive
+
+<?xml version=1.0> encoding="utf-8"?>
+<string?>Conteúdo do arquivo</string>
 ```
+
+É possível ver, que na requisição em específico a método POST foi utilizado. Além do POST, alguns outros métodos existem para realizar o CRUD (Create, Read, Update, and Delete).
+
+* **GET** - Requisitar a representação de um recurso específico;
+* **POST** - Enviar dados a serem processos por um recursos. Usado para incluir recursos ou submeter dados de processamento;
+* **HEAD** - Similar ao GET, porém o retorno deve ser somente do conjunto de cabeçalhos associados ao recurso solicitado;
+* **PUT** - Requisitar a criação ou atualização de um recurso no servidor a partir dos dados no corpo da rquisição; 
+* **DELETE** - Excluir um recurso do servidor;
+* **TRACE** - Solicita ao servidor uma cópia (eco) da requisição. Usado para testar se a requisição foi alterada no caminho;
+* **PATCH** - Utilizado para realizar alterações parciais de um recurso;
+* **OPTIONS** - Usado pelo cliente para entender, ou descobrir, os métodos HTTP e outras opções suportadas por um servidor Web;
+* **CONNECT** - Usado quando o cliente estabelece uma conexão HTTPS com um servidor via um Proxy.
+
+
+**Servidor**
+* **Linha de reposta:** - Contém versão do HTTP, código de status e mensagem de status
+* **Linhas de Cabeçalhos:** - Inclu informação complementares da respota no formato *chave:valor* por linha;
+* **Corpo da entidade:** - Traz o recurso solicitado pelo cliente ou dados de respota à requisição feita.
+
+```http
+HTTP/1.1 200 OK
+Date: Mon, 27 Jul 2009 12:28:53 GMT
+Server: Apache/2.2.14 (Win32)
+Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+ETag: "34aa387-d-1568eb00""
+Content-Length: 88
+Content-Type: text/html
+Connection: Closed
+
+<html><body>
+<h1>Request Processed Successfully</h1>
+</body></html>
+
+```
+
+O campo *Content-Type* informa o formato que o conteúdo enviado. Podendo ser texto, imagem, audio, video e aplicação como application/xhtml+xml, application/vnd.mspowerpoint, application/pdf, entre outros.
+
+Para maior detalhes sobre tipo de dados, [MIME Type](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/MIME_types) por Developer Mozilla.
+
+* **[Visão geral do HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Overview)** por Developer Mozilla
