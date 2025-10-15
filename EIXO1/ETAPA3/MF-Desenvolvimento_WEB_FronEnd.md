@@ -107,6 +107,7 @@ Essas interação contêm um formato de mensagem divido em três partes:
 
 ```http
 POST /app/processamento HTTP/1.1
+
 User-Agent: Mozilla/4.o0 (Compatible...)
 Host: www.pucminas.br
 Content-Type: text/xml; charset=utf-8
@@ -138,6 +139,7 @@ Connection: Keep-Alive
 
 ```http
 HTTP/1.1 200 OK
+
 Date: Mon, 27 Jul 2009 12:28:53 GMT
 Server: Apache/2.2.14 (Win32)
 Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
@@ -157,3 +159,46 @@ O campo *Content-Type* informa o formato que o conteúdo enviado. Podendo ser te
 Para maior detalhes sobre tipo de dados, [MIME Type](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/MIME_types) por Developer Mozilla.
 
 * **[Visão geral do HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Overview)** por Developer Mozilla
+
+#
+
+#### Servidor Web
+ Servidor Web, é a aplicação que responde as solicitações Web por hospedar um ou alguns Sites. Segue abaixo tarefas do servidor Web:
+
+ - Atender requisições HTTP e processar repostas;
+ - Gerenciar múltiplos sites (Domínios, IPs e Portas);
+ - Gerenciar arquivos dos sites (sistema de arquivos);
+ - Integrar com mecanismo de scripts: PHP, PERL, ASPX, Ruby, Python, etc.
+ - Autenticar usuários
+    
+    - Autenticação básica ou digest (Protocolo HTTP);
+    - Integração com servidores de autenticação (Microsoft Active Directory, LDAP Servers, Radius Servers).
+- Implementar criptografia na comunicação: HTTPS - TLS/SSL;
+- Cache de recursos;
+- Auditoria (Logs de acesso, sistema e errors).    
+
+[O que é um servidor Web (Web Server)?](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server) por Developer Mozilla
+
+##### SOFTWARE E PROVEDORES
+- Apache HTTP Server | Apache Web Server
+    
+    - [Apache](https://httpd.apache.org)
+    - [XAMPP - Apache + MariaDB + PHP + Perl](https://www.apachefriends.org)
+- Microsoft Internet Information Server (IIS) - Aplicações WEB em platforma .NET e hospedar sites estáticos.
+
+- Servidores de Nuvem (Cloud Computing)
+
+    - [Microsoft Azure](https://azure.microsoft.com/en-gb/)
+    - [Heroku](https://www.heroku.com)
+    - [Amazon AWS](https://aws.amazon.com/pt/)
+
+- Editores Online 
+
+    - Repl.it
+    - [CodeSandBox](https://codesandbox.io)
+    - [Glitch](https://glitch.com)
+
+- Outras opções
+
+    - GitHub Pages
+
