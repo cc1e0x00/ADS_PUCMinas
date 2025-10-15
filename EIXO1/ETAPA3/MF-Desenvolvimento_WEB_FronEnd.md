@@ -105,7 +105,7 @@ Essas interação contêm um formato de mensagem divido em três partes:
 * Corpo da entidade: Carrega dados adicionais pessadas pelo cliente, tais como: Dados de formulários, arquivos completos
     em um processo de upload, entre outros.
 
-```shell
+```http
 POST /app/processamento HTTP/1.1
 
 User-Agent: Mozilla/4.o0 (Compatible...)
