@@ -228,3 +228,91 @@ Recurso adicionais por Developer Mozilla:
 [Introdução ao CSS](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Structuring_content)
 
 [Como funciona CSS](https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Styling_basics/What_is_CSS)
+
+## UNIDADE 2: DESENVOLVIMENTO DE INTERFACES WEB
+
+### TEMA 1: Linguagem HTML
+
+#### Linguagem HTML
+
+![base-html](/IMAGENS/base_html.png)
+
+A primeira versão da linguagem HTML foi lançada em 1991 por Tim Berners-Lee, baseada no padrão _standard Generalized Markup Language (SGML)_. Com o advento do HTML diversas versões surgiram assim como novas tecnologias foram criadas para melhorar e acompanhar essa evolução como CSS (Cascading Style Sheet) e JavaScript.
+
+- CSS Permite formatar o conteúdo descrito no HTML
+- JavaScript permite manipulação dos elementos da página e criar dinanismo no conteúdo propagado pela WEB
+        
+    - Ex.: Realizar cálculos, criar animações e validar formulários antes de submeter os dados ao servidor. 
+
+O HTML ou _HyperText Mnarkup Language_ é a linguagem de marcação baseada em _tags_, utilizada para produção de documentos ou páginas Web.
+
+**SINTAXE DA LINGUAGEM HTML**
+
+Recurso recomendado: [w3schools HTML Tutorial](https://www.w3schools.com/html/html_intro.asp)
+
+Os tags de marção no HTML contêm seus valos dentro de "< >". Algumas campos mais comuns incluem:
+
+- **\<!DOCTYPE html>** - Informa a versão do HTML sendo a HTML5 em questão;
+
+    - Exemplo de outras versões do html, para mais detelhe  _[we.org Recommend list of Doctyp declarations](https://www.w3.org/QA/2002/04/valid-dtd-list.html)_.
+        
+        - HTML 4.01 \<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+        - XHTML1.0 \<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+- **\<html>  \</html>** - Representa o documento;
+- **\<head> </head>** - Representa o cabeçalho, que contêm as configurações da página como metadados, referências de scripts e referência para códigos CSS (style.css); 
+
+- **\<body> \</body>** - Corpo, conteúdo vusível da página;
+- **\<-- Comentário -->** - Essa é a maneira de adicionar comentário em código HTML.
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="author" content="Rafael">       
+    </head>
+    <body>
+        <!-- Apenaws um comentário no código HTML -->
+        <h1> Título </h1>
+        <p> Parágrafo </p>
+    </body>
+</html>
+```
+
+Exemplo de cabeçalho _head_ com mais informação de metadados e referência ao arquivo CSS:
+
+```html
+<head>
+    <title>Página de exemplo</title>
+    <meta name="description" content="Rafael PUC Minas Web Site">
+    <meta name="author" content="Rafael">
+    <meta name="keywords" content="html, web, css">
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+
+**TIPOS DE ELEMENTOS vs FUNÇÃO**
+- **METADADOS**: Informações sobre a página;
+    
+    - \<tile>\</title>: Título do documento;
+    - \<style>: Define código de formatação no padrão CSS;
+    - \<link>: Definem ligações com outros arquivos comno: CSS, scripts, etc;
+    - \<meta>: As meta tags trazem informações sobre o documento tais como codificação de caractreres, descrição, palavras-chaves, autor, etc.
+
+```html
+<head>
+    <title>Exemp. Elementos de metadados</title>
+    <meta name="description" content="Rafael PUC Minas Web Site">
+    <meta name="author" content="Rafael">
+    <meta name="keywords" content="html, web, css">
+    <meta http-equiv="content-type" content="text/html; chatset=UTF-8" /> # Descreve MIME
+    <meta http-equiv="expires" content="Mon, 30 sep 2026 11:12:00 GNMT" /> # Conteúdo consido expirado em
+    <meta http-equiv="refresh" content="15; url="https://www.pucminas.br" /> # Riderencio após 15sec
+    <meta http-equiv="cache-control" content="no-chace; public; private; no-store"> # Controle de salvamento da página clie ou proxy
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+- http-eqiv sao equivalenta aos cabelos de resposta do HTTP.
+
+- **TEXTUAIS**: Conteúdo de texto das páginas;
+- **MULTIMÍDIA**:
