@@ -413,3 +413,68 @@ Já no HTML, foram criadas tags específicas para o tipo de agrupamento.
 Comparação entre HTML4.1 e HTML5
 
 ![alt text](../../IMAGENS/html5vs41.png)
+
+##### Tabelas
+
+![alt text](../../IMAGENS/semantica-tabela.png)
+
+Exemplo de tabela 
+```html
+<table border="3">
+    <caption> Tabela </caption>
+        <thead>
+            <tr>
+            <!-- COLUNAS -->
+                <th>Nome</th>
+                <th>Telefone</th>
+                <th>Estado</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+   
+    <thead>
+            <tr>
+         <!-- LINHA 1 CADA ELEMENTO POR COLUNA -->
+        <th>Rafael</th>
+        <th>559106977</th>
+        <th>Janeiro do Rio</th>
+        <th>Amigos</th>
+            </tr>
+    </thead>
+    <tr>
+        <!-- LINHA 1 CADA ELEMENTO POR COLUNA -->
+        <th>Lucas</th>
+        <th>5593006977</th>
+        <th>Janeiro do Rio</th>
+        <th>Amigos</th>
+
+    </tr>
+</table>
+
+<table border="3">
+    <caption> Nom aqui </caption>
+    <thead>
+        <tr>
+            <th>Coluna 1</th>
+            <th> Coluna 2</th>
+            <th>Coluna 3</th>
+        </tr>
+    </thead>
+        <tr>
+            <td>DDDDD</td>
+            <td>DDDDD</td>
+        </tr>
+        <tr>
+            <th>AAAA</th>
+            <th>AAAAA</th>
+        </tr>
+        <tr>
+            <th>ZZZZ</th>
+        </tr>
+            <th>ZZZZ</th>
+        </tr>
+    <tbody>
+    </tbody>
+</table>
+```
+![alt text](../../IMAGENS/tabela.png)
