@@ -62,23 +62,18 @@
         </tr>
     </thead>
         <tr>
-            <td>
-                DDDDD
-            </td>
-            <td>
-                DDDDD
-            </td>
+            <td>DDDDD</td>
+            <td>DDDDD</td>
         </tr>
         <tr>
-            <th>
-                AAAA
-            </th>
-            <th>
-                AAAAA
-            </th>
+            <th>AAAA</th>
+            <th>AAAAA</th>
         </tr>
-        <tr><th>ZZZZ</th></tr>
-        <tr><th>ZZZZ</th></tr>
+        <tr>
+            <th>ZZZZ</th>
+        </tr>
+            <th>ZZZZ</th>
+        </tr>
     <tbody>
 
 
@@ -87,3 +82,65 @@
 
 
 </table>
+
+
+<!-- -->
+
+
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+
+
+
+
+
+<form nome="form_login" action="do_login.html" method="POST">
+    Usuário: <input type="text" name="usuario" value=""><br>
+    Senha: <input type="password" name="senha" value=""><br>
+    <input type="submit" value="ok">
+</form>
+
+<br>
+
+<br>
+
+<br>
+<form>
+    <fieldset>
+        <legend>Informaçoes pessoais</legend>
+        Nome: <input type="text" name="nome" required><br>
+        Email: <input type="email" name="email" required><br>
+        Data de nascimento: <input type="date" required><br>
+        Sexo: <br>
+        <input type="radio" name="sex" value="male">Masculino<br>
+        <input type="radio" name="sex" value="female">Feminino<br>
+    </fieldset>
+
+    <fieldset>
+        <legend> Quero </legend>
+        <input type="checkbox" name="acao" value="velocidade"> Ver teste de velocidade<br>
+        <input type="checkbox" name="acao" value="google"> Verificar google analytics<br>
+    </fieldset>
+        <legend>Opcional</legend>
+        <form action="demo.form.html" method="post">
+    <fieldset> Informaçoes adicionais
+        <br>
+        <textarea name="texto" rows="5" cols="30">
+Preencha com texto
+        </textarea>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>Metodo Select </legend>
+       <label for="dispositivos"> Dispositivos: </label>
+        <select name="dispositivos">
+            <option value=""> Selecione um dispositivo</option>
+            <option value="MacBook PRO M4">MacBook Pro M4</option>
+            <option value="Laptop Lenovo Pro">Laptop Lenovo Pro</option>
+            <option value="Roteado Meraki MX80">Roteado Meraki MX80</option>
+        </select>
+    </fieldset>
+</form>

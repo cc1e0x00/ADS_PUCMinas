@@ -526,10 +526,28 @@ Exemplo de formulário
     </fieldset>
 
     <fieldset>
-        <
         <legend> Quero </legend>
         <input type="checkbox" name="acao" value="velocidade"> Ver teste de velocidade<br>
         <input type="checkbox" name="acao" value="google"> Verificar google analytics<br>
+    </fieldset>
+        <legend>Opcional</legend>
+        <form action="demo.form.html" method="post">
+    <fieldset> Informaçoes adicionais
+        <br>
+        <textarea name="texto" rows="5" cols="30">
+Preencha com texto
+        </textarea>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>Metodo Select </legend>
+       <label for="dispositivos"> Dispositivos: </label>
+        <select name="dispositivos">
+            <option value=""> Selecione um dispositivo</option>
+            <option value="MacBook PRO M4">MacBook Pro M4</option>
+            <option value="Laptop Lenovo Pro">Laptop Lenovo Pro</option>
+            <option value="Roteado Meraki MX80">Roteado Meraki MX80</option>
+        </select>
     </fieldset>
 </form>
 ```
