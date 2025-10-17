@@ -415,6 +415,9 @@ Comparação entre HTML4.1 e HTML5
 ![alt text](../../IMAGENS/html5vs41.png)
 
 ##### Tabelas
+Recursos de referência para criação de tabelas:
+- https://htmlreference.io/tables/
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table
 
 ![alt text](../../IMAGENS/semantica-tabela.png)
 
@@ -478,3 +481,20 @@ Exemplo de tabela
 </table>
 ```
 ![alt text](../../IMAGENS/tabela.png)
+
+##### Elementros de formulário
+
+ Exemplo de códido e o o resultado
+```html
+<form nome="form_login" action="do_login.html" method="POST">
+    Usuário: <input type="text" name="usuario" value=""><br>
+    Senha: <input type="password" name="senha" value=""><br>
+    <input type="submit" value="ok">
+</form>
+```
+
+<form nome="form_login" action="do_login.html" method="POST">
+    Usuário: <input type="text" name="usuario" value=""><br>
+    Senha:   <input type="password" name="senha" value=""><br>
+    <input type="submit" value="ok">
+</form>
