@@ -314,5 +314,102 @@ Exemplo de cabeçalho _head_ com mais informação de metadados e referência ao
 ```
 - http-eqiv sao equivalenta aos cabelos de resposta do HTTP.
 
+#### Tipos de elementos e função
+
 - **TEXTUAIS**: Conteúdo de texto das páginas;
-- **MULTIMÍDIA**:
+- **MULTIMÍDIA**: Recursos como imagens áudio e vídeo;
+- **TABELAS**: Estrutura de dados em tabelas;
+- **ESTRUTURA**: Separação e organização do conteúdo;
+- **FORMULÁRII**: Elementso para entrada de dados pelo usuário;
+- **SCRIPTING**: Conteúdo dinâmico de aplicações Web;
+- **INTEGRAÇÃO**: Conteúdo externo ou multimedia avançada.
+
+#### Elementos de texto e multimedia
+```html
+Elementos	                Tags
+-----------------------------------------------------------------------------
+Títulos	                    <h1> .. </h1>, <h2> .. </h2>, ... , <h6> ...</h6>
+Parágrafo	                <p> .. </p>
+Quebra de Linha	            <br>
+Voz alternativa (itálico)	<i> .. </i>
+Palavra-chave (negrito)	    <b> .. </b>
+Importância	                <strong> .. </strong>
+Código-fonte ou programas	<code> ... </code>
+Texto pre-formatado	        <pre> ... </pre>
+Citações	                <blockquote> .. </blockquote>
+<!-- Imagens GIF, JPG e PNG --> 
+<img>
+<!-- Links -->
+ <a></a>
+```
+
+```html
+<h1> Título 1 </h1>
+<p> Este é um simples paragrafo de texto</p>
+
+<h2> Título 2 </h2>
+<!-- Quebra de linha -->
+<p>Este é um simples parágrafo de texto <br /> com duas linhas </p>
+```
+
+![alt text](<../../IMAGENS/semantica de texto.png>)
+Para maiores opções de semânticas https://www.w3.org/TR/2014/REC-html5-20141028/text-level-semantics.html#usage-summary
+
+##### Listas e Imagens
+
+```html
+Ordenada   <ol> ... </ol>
+Não ordenada <ul>...</ul>
+Definições <dl>...</dl>
+```
+
+**Exemplo**
+
+![exemplo-lista](/IMAGENS/exemplo-lista-img.png)
+
+
+```html
+<ol>
+    <li> Primeiro item</li>
+    <li> Segunddo item</li>
+    <li> Terceiro item</li>
+    <ul> A</ul>
+    <ul> B</ul>
+    <ul> C</ul>
+    <dl> X </dl>
+    <dl> Y </dl>
+    <dl> Z </dl>
+<dl> 
+  <dt> termo 01</dt>
+  <dd> definição 01</dd>
+  <dt> <em>termo 02</em></dt>
+  <dd> definição 02</dd>
+</dl>
+</ol>
+<img width="200" eight="180"
+        src="/IMAGES/exemplo-list.png" alt="lista exemplo">
+```
+#### Links
+Links refereciam conteúdos em sites diferentes ou no mesmo site.
+
+```html
+  <a href="http://pucminas.br" target="_blank"> PUC Minas Web Site
+</a>
+```
+Atribuido target define one o documento apontado pelo link será aberto e aceitos os valores:
+- **_blank** – para nova janela ou tab,
+- **_self** – para a mesma janela – default,
+- **_parent** – para a o frame pai,
+- **_top** – para a janela atual inteira ou
+- **nome_do_frame** – para um frame específico.
+
+##### Estrutura
+No HTML 4.1 o as tags \<div>\</div> eram utilizadas para agrupar parte do conteúdo de uma página HTML com propósito genético de acordo com o critério do desenvolvedor.
+
+Já no HTML, foram criadas tags específicas para o tipo de agrupamento.
+
+![alt text](../../IMAGENS/semantica-de-estrutura.png)
+
+Comparação entre HTML4.1 e HTML5
+
+![alt text](../../IMAGENS/html5vs41.png)
