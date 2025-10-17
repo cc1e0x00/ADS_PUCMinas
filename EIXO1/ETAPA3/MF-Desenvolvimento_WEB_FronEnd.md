@@ -482,9 +482,9 @@ Exemplo de tabela
 ```
 ![alt text](../../IMAGENS/tabela.png)
 
-##### Elementros de formulário
+##### Elementros de formulário - Input, TextArea e Select
 
- Exemplo de códido e o o resultado
+ Exemplo de códido 1
 ```html
 <form nome="form_login" action="do_login.html" method="POST">
     Usuário: <input type="text" name="usuario" value=""><br>
@@ -495,6 +495,42 @@ Exemplo de tabela
 
 <form nome="form_login" action="do_login.html" method="POST">
     Usuário: <input type="text" name="usuario" value=""><br>
-    Senha:   <input type="password" name="senha" value=""><br>
+    Senha:   <input type="password" name="senha" placeholder="a"><br>
     <input type="submit" value="ok">
 </form>
+
+Caso o method de login dos dados cadastrado utilize GET, os dados serão visto na URL como exemplo http://server/do_login.html?usuario=user&senha=123. Quando o metódo POST é utilizado os dados são submetidos no corpo da requisião HTTP.
+
+##### INPUT
+
+\<input> É utilizada parao usuário inseririr dados.
+
+-  **type** identifica o tipo do campo: text, number, password, email, date (calendario), submit (botao de enviar), radio (marca uma opcao), checkbox (check em varias ou uma opção);
+- **name** identifica o campo do formulário;
+- **value** trata o valor contido no campo;
+- **placeholder** permite incluir um valor de exemplo apresentado pelo Navegador quando o campo estiver vazio;
+- **required** permite a validação automática de um campo evitando que o usuário submeta o formulário com o campo vazio;
+- **disabled** inativa o campo e não permite ao usuário interagir, apenas visualizar o valor definido no código HTML.
+
+Exemplo de formulário
+```html
+<form>
+    <fieldset>
+        <legend>Informaçoes pessoais</legend>
+        Nome: <input type="text" name="nome" required><br>
+        Email: <input type="email" name="email" required><br>
+        Data de nascimento: <input type="date" required><br>
+        Sexo: <br>
+        <input type="radio" name="sex" value="male">Masculino<br>
+        <input type="radio" name="sex" value="female">Feminino<br>
+    </fieldset>
+
+    <fieldset>
+        <
+        <legend> Quero </legend>
+        <input type="checkbox" name="acao" value="velocidade"> Ver teste de velocidade<br>
+        <input type="checkbox" name="acao" value="google"> Verificar google analytics<br>
+    </fieldset>
+</form>
+```
+![formulario](../../IMAGENS/formulario.png)
